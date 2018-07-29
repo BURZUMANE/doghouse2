@@ -1,4 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Poppins:400,500,700");
+.sticky-top {
+  background-color: #f98866; }
+
 .logo {
   fill: aqua;
   height: 55px; }
@@ -13,7 +16,7 @@
   bottom: 0;
   left: 0;
   right: 0;
-  background: linear-gradient(to top, rgba(23, 46, 124, 0.4) 0%, rgba(155, 103, 4, 0.99) 90%); }
+  background: linear-gradient(to top, rgba(23, 46, 124, 0.3) 0%, rgba(155, 103, 4, 0.3) 90%); }
 
 .mid-title {
   font-family: 'Indie Flower', cursive;
@@ -23,6 +26,9 @@
   text-align: center;
   font-family: 'Anton', sans-serif;
   font-weight: 200; }
+
+.dogs-icon {
+  height: 165px; }
 
 /*---Media Queries --*/
 /*---Firefox Bug Fix --*/
